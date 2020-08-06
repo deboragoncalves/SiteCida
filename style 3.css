@@ -1,0 +1,269 @@
+html, body {
+margin: 0;
+padding: 0;
+height: 100%;
+width: 100%;
+text-align: center;
+}
+
+.inicio {
+background-image: url(historia.jpeg);
+height: 70%;
+width: 100%;
+margin: auto;
+display: table;
+top: 0;
+background-size: cover;
+opacity: .75;
+}
+
+.inicio .historia1 {
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+
+.historia2 {
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+.historia2 p {
+font-family: segoe print;
+text-shadow: 0px 0px 10px;
+font-size: 400%;
+}
+
+h1 {
+text-align: center;
+font-family: segoe print;
+margin-left: 5%;
+}
+
+.textohistoria1, .textohistoria2 {
+font-size: 120%;
+font-family: segoe print;
+line-height: 180%;
+text-align: justify;
+margin: 3%;
+}
+
+ul li {
+list-style-type: none;
+font-family: segoe print;
+line-height: 180%;
+text-align: center;
+font-size: 20px;
+}
+
+.inicio2 {
+background-image: url(servicos.jpg);
+height: 70%;
+width: 100%;
+margin: auto;
+display: table;
+top: 0;
+background-size: cover;
+opacity: .75;
+}
+
+.inicio2 .servico1 {
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+
+.servico2 {
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+.servico2 p {
+font-family: segoe print;
+text-shadow: 0px 0px 10px;
+font-size: 400%;
+}
+
+.inicio3 {
+background-image: url(contato.jpg);
+height: 70%;
+width: 100%;
+margin: auto;
+display: table;
+top: 0;
+background-size: cover;
+opacity: .75;
+}
+
+.inicio3 .contato1 {
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+
+.contato2 {
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+.contato2 p {
+font-family: segoe print;
+text-shadow: 0px 0px 10px;
+font-size: 400%;
+}
+
+.inicio4 {
+background-image: url(endereco.jpg);
+height: 70%;
+width: 100%;
+margin: auto;
+display: table;
+top: 0;
+background-size: cover;
+opacity: .75;
+}
+
+.inicio4 .endereco1 {
+display: table-cell;
+vertical-align: middle;
+width: 100%;
+max-width: none;
+}
+
+.endereco2 {
+max-width: 500px;
+margin: 0 auto;
+text-align: center;
+}
+
+.endereco2 p {
+font-family: segoe print;
+text-shadow: 0px 0px 10px;
+font-size: 400%;
+}
+
+.textoendereco {
+font-size: 120%;
+font-family: segoe print;
+text-align: center;
+}
+
+.imagem1 img {
+border-radius: 10%;
+width: 600px;
+padding: 10px;
+left: 2%;
+position: relative;
+}
+
+.imagem2 img {
+border-radius: 10%;
+width: 600px;
+padding: 10px;
+left: 2%;
+position: relative;
+}
+
+.icone {
+padding-left: 40px;
+background: url(whats2.png) no-repeat left center;
+text-decoration: none;
+color: black;
+}
+
+.icone2 {
+padding-left: 40px;
+background: url(email2.png) no-repeat left center;
+text-decoration: none;
+color: black;
+}
+
+.linkendereco {
+text-decoration: none;
+color: black;
+}
+
+header {
+font-family: segoe print;
+text-align: center;
+font-size: 150%;
+}
+
+#menu {
+}
+
+#menu ul {
+border-radius: 50px;
+background-color: white;
+list-style: none;
+}
+
+#menu ul li {
+display: inline;
+}
+
+#menu ul li a{
+padding: 5px 20px;
+color: green;
+text-decoration: none;
+display: inline-block;
+}
+
+#menu ul li a:hover{
+color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+.historia2 p {
+font-size: 250%;
+}
+
+.textohistoria1, .textohistoria2, .textoendereco {
+font-size: 90%;
+line-height: 180%;
+}
+
+ul li {
+font-size: 15px;
+}
+
+.servico2 p {
+font-size: 250%;
+}
+
+.contato2 p {
+font-size: 250%;
+}
+
+.endereco2 p {
+font-size: 250%;
+}
+
+.imagem1 img {
+width: 300px;
+left: 10%;
+}
+
+.imagem2 img {
+width: 300px;
+left: 10%;
+}
+
+header {
+font-size: 100%;
+}
+
+#menu a {
+display: block;
+border-bottom: 1px solid #fff;
+flex-direction: column;
+}
+
+}
+
