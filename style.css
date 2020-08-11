@@ -7,7 +7,7 @@ text-align: center;
 }
 
 .inicio {
-background-image: url(historia.jpeg);
+background-image: url("http://www.hostcgs.com.br/hostimagem/images/176historia.jpeg");
 height: 70%;
 width: 100%;
 margin: auto;
@@ -58,7 +58,7 @@ font-size: 20px;
 }
 
 .inicio2 {
-background-image: url(servicos.jpg);
+background-image: url("http://www.hostcgs.com.br/hostimagem/images/741servicos.jpg");
 height: 70%;
 width: 100%;
 margin: auto;
@@ -88,7 +88,7 @@ font-size: 400%;
 }
 
 .inicio3 {
-background-image: url(contato.jpg);
+background-image: url("http://www.hostcgs.com.br/hostimagem/images/654contato.jpg");
 height: 70%;
 width: 100%;
 margin: auto;
@@ -118,7 +118,7 @@ font-size: 400%;
 }
 
 .inicio4 {
-background-image: url(endereco.jpg);
+background-image: url("http://www.hostcgs.com.br/hostimagem/images/969endereco.jpg");
 height: 70%;
 width: 100%;
 margin: auto;
@@ -171,14 +171,14 @@ position: relative;
 
 .icone {
 padding-left: 40px;
-background: url(whats2.png) no-repeat left center;
+background: url("http://www.hostcgs.com.br/hostimagem/images/300whats2.png") no-repeat left center;
 text-decoration: none;
 color: black;
 }
 
 .icone2 {
 padding-left: 40px;
-background: url(email2.png) no-repeat left center;
+background: url("http://www.hostcgs.com.br/hostimagem/images/966email2.png") no-repeat left center;
 text-decoration: none;
 color: black;
 }
