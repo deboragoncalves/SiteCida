@@ -218,14 +218,14 @@ font-size: 15px;
 }
 
     #labelMenu {
-        display: block;
+	display: block;
         z-index: 1000000000000000000000;
         right: 0;
+	top: 0;
         padding-right: 15px;
         padding-left: 15px;
+	position: fixed;
         color: rgba(229, 147, 25, 0.61);
-        position: fixed;
-        top: 0px;
     }
 
     #bt_menu:checked ~ #menu {

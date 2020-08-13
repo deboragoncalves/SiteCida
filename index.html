@@ -4,35 +4,7 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<script>
-    function styleMenu() {
-
-        var mediaQuery = window.matchMedia("(max-width: 768px)");
-
-        if (mediaQuery.matches) {
-
-            document.getElementById("labelMenu").style.display = "block";
-            document.getElementById("labelMenu").style.right = "0";
-            document.getElementById("labelMenu").style.top = "0";
-            document.getElementById("labelMenu").style.paddingRight = "15px";
-            document.getElementById("labelMenu").style.paddingLeft = "15px";
-            document.getElementById("labelMenu").style.position = "fixed";
-            document.getElementById("labelMenu").style.fontSize = "30px";
-
-            var menuDisplay = document.getElementById("menu").style.display;            if (menuDisplay == "block") {                document.getElementById("menu").style.display = "none";            } else {                document.getElementById("menu").style.display = "block";            }
-        }
-        
-    }
-
-    function esconderMenu() {
-        var menuDisplay = document.getElementById("menu").style.display;
-
-        if (menuDisplay == "block") {            document.getElementById("menu").style.display = "none";        }
-    }
-
-</script>
-
+<script type="text/javascript" src="funcoesJs.js"></script>
 </head>
 <body>
 
@@ -45,7 +17,7 @@
 
         <div id="divMenu">
             <input type="checkbox" id="bt_menu">
-            <label for="bt_menu" id="labelMenu" onclick="styleMenu()">&#9776;</label>
+            <label for="bt_menu" id="labelMenu" onclick="mostrarEsconderMenu()">&#9776;</label>
             <nav id="menu">
                 <ul>
                     <li><a href="#historia" onclick="esconderMenu()">Minha história</a></li>
